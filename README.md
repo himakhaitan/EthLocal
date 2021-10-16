@@ -11,7 +11,7 @@
 <img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/react.png" width="100">
 </a>&nbsp;
 <a href="https://soliditylang.org/">
-<img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/Solidity.svg" width="100">
+<img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/solidity.png" width="100">
 </a>&nbsp;
 <a href="https://www.trufflesuite.com/">
 <img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/trufflenew.png" width="60">
@@ -47,7 +47,14 @@
 
 ## Description
 
+Personal day-to-day transcations are hard to manage and requires an administrative power. However with Blockchain it helps to reduce a lots of paperwork and a solid increase in transparency. The Dapp insures a transparent and efficient Transfer, Withdrwal and Deposit of funds on your finger tips.
+
 ### Features
+
+- Transfer
+- WithDrawal
+- Deposit
+- Balance
 
 ## Screenshot
 
@@ -74,6 +81,27 @@ Below are some of the screenshots from EthLocal
 <img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/5.png">
 
 ## Installation and Setup
+
+Prerequisites : `npm, git`
+
+Clone the Repositiory
+`git clone https://github.com/himakhaitan/EthLocal.git && cd ./EthLocal`
+
+Install Truffle
+`npm i -g truffle`
+
+Compile The Contacts
+`truffle compile`
+
+Migrate the Contracts
+`truffle migrate --network=develop --reset`
+
+Run The App
+`cd ./client && npm start`
+
+The default port for the app is port `3000`
+
+> Do check to install [MetaMask](https://metamask.io/) Extension on your Browser.
 
 ## License
 
