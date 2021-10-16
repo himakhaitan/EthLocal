@@ -1,0 +1,51 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.primary {
+  width: 100%;
+}
+.primary > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.secondary {
+  padding: 3rem;
+}
+
+.secondary > h1 {
+  font-size: 4.2rem;
+  text-transform: capitalize;
+}
+.secondary > h1 > span {
+  background-color: var(--primary);
+  padding: 0.4rem 1.5rem;
+  border-radius: 5rem;
+  user-select: none;
+  color: var(--white);
+}
+.secondary > h3 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  color: var(--primary);
+}
+
+.secondary > p {
+  font-size: 1.3rem;
+  margin-top: 1.4rem;
+  line-height: 1.4; 
+}

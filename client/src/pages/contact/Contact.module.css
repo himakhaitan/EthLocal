@@ -1,0 +1,73 @@
+.contact {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondary {
+  width: 100%;
+}
+
+.secondary > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.primaryDiv {
+  width: 100%;
+  margin-right: -16rem;
+  padding: 3rem;
+}
+
+.primaryDiv > h1 {
+  font-size: 3.6rem;
+  text-transform: capitalize;
+}
+
+.primaryDiv > h1> span {
+  background-color: var(--primary);
+  padding: 0.4rem 1.5rem;
+  border-radius: 5rem;
+  user-select: none;
+  color: var(--white);
+}
+
+.primaryDiv > h3 {
+  margin-top: 1.8rem;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  color: var(--primary);
+}
+
+.primaryDiv > p {
+  font-size: 1.3rem;
+  margin-top: 1.4rem;
+  line-height: 1.6;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2.4rem;
+  margin-top: 2rem;
+}
+.socialGrp {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.socialGrp:hover {
+  color: var(--primary);
+  transform: scale(1.1);
+}

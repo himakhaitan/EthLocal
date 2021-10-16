@@ -1,0 +1,47 @@
+.main {
+  width: 100%;
+}
+.main > h3 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.main > h1 {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  font-size: 4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: 400;
+
+}
+.input {
+  margin: 2rem 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border: 1px solid var(--fontWhite);
+  border-radius: 2rem;
+  color: var(--fontWhite);
+  background-color: transparent;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+.input::placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.btn {
+  margin: 2 auto;
+  display: block;
+}
+
+.amount {
+    font-size: 7rem;
+    font-weight: 900;
+}

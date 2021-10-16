@@ -1,0 +1,44 @@
+.navBar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 2rem 3rem;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo > p {
+  color: var(--fontWhite);
+  font-size: 2.8rem;
+  font-weight: 900;
+  user-select: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.ethIcon {
+  font-size: 4rem;
+}
+
+.navOpts {
+  justify-self: right;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 2.8rem;
+  transition: all 0.3s;
+}
+
+.navOpts > li:hover,
+.active {
+  color: var(--white) !important;
+}

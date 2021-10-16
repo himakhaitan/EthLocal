@@ -1,0 +1,138 @@
+.dashboard {
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: max-content 1fr;
+}
+
+.div {
+  box-shadow: 0rem 1.4rem 10rem rgba(115, 64, 70, 1);
+  border-radius: 1rem;
+}
+
+.amount {
+  height: 7rem;
+  background-color: var(--white);
+  width: 7rem;
+  display: flex;
+  font-size: 2.2rem;
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  color: var(--primary);
+}
+
+.amount:hover {
+  border-radius: 1rem;
+  color: var(--primary) !important;
+  background-color: var(--white);
+}
+
+.controller {
+  display: flex;
+  font-size: 3rem;
+  align-items: center;
+  width: max-content;
+  background-color: var(--primary);
+}
+.divgrp {
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.divgrp:hover,
+.activeClass {
+  border-radius: 1rem;
+  background-color: var(--white);
+  color: var(--primary) !important;
+}
+
+.activeClass {
+  color: var(--primary) !important;
+}
+
+.divgrp .hoverPara {
+  visibility: hidden;
+  width: max-content;
+  background-color: var(--primary);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hoverPara {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.divgrp .hoverPara::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: rotateZ(180deg);
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--primary) transparent transparent transparent;
+}
+
+.divgrp:hover .hoverPara {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*  */
+
+.mainCont {
+  margin-top: 4rem;
+  width: 100%;
+  
+}
+.dash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dashHead {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.dashHead > span {
+  background-color: var(--primary);
+  padding: 0.4rem 1.1rem;
+  border-radius: 5rem;
+  user-select: none;
+  color: var(--white);
+}
+.dashImg {
+  width: 30rem;
+  margin-bottom: 3rem;
+}

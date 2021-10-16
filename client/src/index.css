@@ -1,0 +1,7 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --fontBlack: rgba(0, 0, 0, 0.7);
+  --fontWhite: rgba(255, 255, 255, 0.7);
+  --primary: rgb(115, 64, 70);
+}

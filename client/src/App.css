@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: var(--fontWhite);
+  background-color: var(--black);
+}
+
+a,
+a:visited,
+a:link {
+  color: inherit;
+}
+
+.App {
+  position: relative;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.buttonDark {
+  background-color: var(--primary);
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  padding: 1rem 3.8rem;
+  text-align: center;
+  border-radius: 4rem;
+  display: inline-block;
+  margin: 3rem 0 0;
+  font-weight: 600;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.buttonDark:hover {
+  transform: scale(1.1);
+  background-color: rgba(115, 64, 70, 0.8);
+}
