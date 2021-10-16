@@ -103,11 +103,13 @@ truffle compile
 ```
 
 Migrate the Contracts <br>
+
 ```Bash
 truffle migrate --network=develop --reset
 ```
 
 Run The App <br>
+
 ```Bash
 cd ./client && npm start
 ```
@@ -125,4 +127,3 @@ This project uses an [MIT](https://opensource.org/licenses/MIT) license.
 <p><a href="https://github.com/himakhaitan/EthLocal/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=himakhaitan/EthLocal" />
 </a></p>
-````
