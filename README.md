@@ -85,19 +85,32 @@ Below are some of the screenshots from EthLocal
 Prerequisites : `npm, git`
 
 Clone the Repositiory <br>
-```git clone https://github.com/himakhaitan/EthLocal.git && cd ./EthLocal````
+
+```Bash
+git clone https://github.com/himakhaitan/EthLocal.git && cd ./EthLocal
+```
 
 Install Truffle <br>
-`npm i -g truffle`
+
+```Bash
+npm i -g truffle
+```
 
 Compile The Contacts <br>
-`truffle compile`
+
+```Bash
+truffle compile
+```
 
 Migrate the Contracts <br>
-`truffle migrate --network=develop --reset`
+```Bash
+truffle migrate --network=develop --reset
+```
 
 Run The App <br>
-`cd ./client && npm start`
+```Bash
+cd ./client && npm start
+```
 
 The default port for the app is port `3000`
 
@@ -112,3 +125,4 @@ This project uses an [MIT](https://opensource.org/licenses/MIT) license.
 <p><a href="https://github.com/himakhaitan/EthLocal/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=himakhaitan/EthLocal" />
 </a></p>
+````
