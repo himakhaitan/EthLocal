@@ -11,15 +11,15 @@
 <img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/react.png" width="100">
 </a>&nbsp;
 <a href="https://soliditylang.org/">
-<img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/Solidity.svg" width="60">
+<img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/Solidity.svg" width="100">
 </a>&nbsp;
 <a href="https://www.trufflesuite.com/">
-<img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/trufflenew.png" width="100">
+<img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/trufflenew.png" width="60">
 </a>
 &nbsp;
 <a href="https://www.npmjs.com/package/web3"><img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/web3.jpg" width="60"></a>
   &nbsp;
-<a href="https://github.com/trufflesuite/ganache"><img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/ganachetrans.png" width="60"></a>
+<a href="https://github.com/trufflesuite/ganache"><img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/ganachetrans.png" width="100"></a>
 <a href="https://mochajs.org/"><img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/mocha.png" width="60"></a>
 &nbsp;&nbsp;
 
