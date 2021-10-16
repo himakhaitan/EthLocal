@@ -11,7 +11,7 @@
 <img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/react.png" width="100">
 </a>&nbsp;
 <a href="https://soliditylang.org/">
-<img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/solidity.png" width="100">
+<img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/solidity.png" width="60">
 </a>&nbsp;
 <a href="https://www.trufflesuite.com/">
 <img src="https://github.com/himakhaitan/EthLocal/blob/main/resources/trufflenew.png" width="60">
@@ -84,19 +84,19 @@ Below are some of the screenshots from EthLocal
 
 Prerequisites : `npm, git`
 
-Clone the Repositiory
-`git clone https://github.com/himakhaitan/EthLocal.git && cd ./EthLocal`
+Clone the Repositiory <br>
+```git clone https://github.com/himakhaitan/EthLocal.git && cd ./EthLocal````
 
-Install Truffle
+Install Truffle <br>
 `npm i -g truffle`
 
-Compile The Contacts
+Compile The Contacts <br>
 `truffle compile`
 
-Migrate the Contracts
+Migrate the Contracts <br>
 `truffle migrate --network=develop --reset`
 
-Run The App
+Run The App <br>
 `cd ./client && npm start`
 
 The default port for the app is port `3000`
